@@ -1,11 +1,16 @@
+import { AppFooter, AppHeader } from "./components/common"
 
 
 function App() {
   
 
   return (
-    <div>App.tsx 시발 나 혼자 하게 생겼네</div>
-  )
+    <div className="page">
+      <AppHeader />
+      <div className="container"></div>
+      <AppFooter />
+    </div>
+  );
 }
 
 export default App
